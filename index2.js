@@ -8,7 +8,7 @@ function RollCall(names) {
 
 function findTheCheese(list) {
   for (i=0; i < list.length; i++) {
-    (list[i] === "cheddar" || list[i] === "gouda" || list[i] === "camembert") ? list[i] : null
+    (list[i] === "cheddar" || list[i] === "gouda" || list[i] === "camembert") ? list[i] : undefined
   }
   return `no cheese!`
 }
