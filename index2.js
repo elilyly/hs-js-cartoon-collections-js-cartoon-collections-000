@@ -6,7 +6,7 @@ function RollCall(names) {
   return str
 }
 
-function findTheCheese (list) {
+function findTheCheese(list) {
   for (i=0; i < list.length; i++) {
     (list[i] === "cheddar" || list[i] === "gouda" || list[i] === "camembert") ? list[i] : null
   }
